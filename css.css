@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.b1{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;*/
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.sb2{
+    width: 480px;
+    height: 250px;
+    border: 2px solid blue;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.ssb1{
+    border-right: 1px solid black;
+    flex: 1px;
+    margin: 10px;
+}
+.ssb2{
+    flex: 1px;
+    margin: 10px;
+}
+.sb3{
+    margin: 10px;
+}
+#Scroller{
+    overflow:scroll;
+    width:200px;
+    height:150px;
+    border:1px solid black;
+}
